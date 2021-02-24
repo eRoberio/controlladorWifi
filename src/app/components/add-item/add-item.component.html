@@ -1,0 +1,48 @@
+<div class="card-content">
+  <br />
+
+  <h5>
+    <span class="class-card-title"> Solicitação acesso Wifi </span>
+  </h5>
+  <br />
+  <form (ngSubmit)="onSubmit()" class="col s6">
+    <div style="text-align: center">
+      <div class="input-field s6">
+        <input
+          type="text"
+          placeholder="Nome"
+          [(ngModel)]="item.nome"
+          name="nome"
+        />
+      </div>
+      <!--  -->
+
+      <div class="input-field s6">
+        <input
+          type="text"
+          placeholder="E-mail"
+          [(ngModel)]="item.email"
+          name="email"
+        />
+      </div>
+
+      <!--  -->
+
+      <div class="input-field s6">
+        <input
+          type="text"
+          placeholder="Whatsapp"
+          [(ngModel)]="item.whatsapp"
+          name="hatsapp"
+        />
+      </div>
+    </div>
+    <br />
+
+    <p>
+      <button type="submit" value="Submit" class="btn btn-primary">
+        Solicitar
+      </button>
+    </p>
+  </form>
+</div>

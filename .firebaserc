@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "wifiaccess-23404": {
+      "hosting": {
+        "wifiaccess": [
+          "wifiaccess-23404"
+        ]
+      }
+    }
+  }
+}

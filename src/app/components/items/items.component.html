@@ -1,0 +1,19 @@
+
+
+<app-add-item></app-add-item>
+
+<!-- 
+<div *ngIf="items?.length > 0; else noItems">
+  <ul *ngFor="let item of items" class="collection">
+    <li class="collection-item">
+      <strong> {{ item.nome }}:</strong>
+      {{ item.email }} /
+      {{ item.whatsapp }}
+    </li>
+  </ul>
+</div> -->
+
+<ng-template #noItems>
+  <hr />
+  <h5>Não temos nada para exibir aqui!</h5>
+</ng-template>
